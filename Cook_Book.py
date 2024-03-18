@@ -5,7 +5,6 @@ def get_cook_book_from_file():
     with open (r"E:\питон\ДЗ\чтение и запись в файл\readANDwrite_in_file\recipes.txt", "r", encoding="UTF-8") as f:
     
         for row in f:
-    
             if not row.strip():
                 return
             dish_name = row.strip() 
